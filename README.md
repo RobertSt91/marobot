@@ -32,6 +32,7 @@ Trading Bot for Crypto Currencies
 - Monitoring and ensuring risk management during live trading
 
 1. Strategy 
+
 Trend Following Strategy: A bot can aim to identify trends based on price movements and trade in the direction of the trend. When the bot recognises an uptrend developing, it could buy, and when a downtrend is forming, it could sell
 - based on which frequency?
 
