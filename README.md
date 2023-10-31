@@ -31,6 +31,8 @@ Trading Bot for Crypto Currencies
 - If satisfied with the results of backtesting and demo trading, live implementation
 - Monitoring and ensuring risk management during live trading
 
+###################################################
+
 1. Strategy 
 
 Trend Following Strategy: A bot can aim to identify trends based on price movements and trade in the direction of the trend. When the bot recognises an uptrend developing, it could buy, and when a downtrend is forming, it could sell
@@ -56,3 +58,76 @@ Sentiment Analysis: A bot can be programmed to trade based on news, social media
 
 Automated DCA Strategy: A Dollar-Cost Averaging (DCA) bot regularly buys a fixed amount of an asset, regardless of the current price. This is a long-term strategy aimed at reducing volatility
 - boring strategy
+
+####################################
+
+Momentum Trading
+
+1. Data Collection:
+Gather historical price and trading volume data for the cryptocurrency you want to trade. You can obtain this data from cryptocurrency exchanges or financial data providers via APIs.
+
+2. Data Preprocessing:
+Clean and preprocess the data, including handling missing values and normalizing the data if necessary.
+
+3. Feature Engineering:
+Create relevant technical indicators and features that are commonly used in momentum trading, such as moving averages, relative strength index (RSI), moving average convergence-divergence (MACD), and others.
+
+4. Strategy Formulation:
+Define your momentum trading strategy. For example, you might buy when the short-term moving average crosses above the long-term moving average and sell when it crosses below. You can also set a threshold for price change to trigger buy or sell signals.
+
+5. Backtesting:
+Implement a backtesting framework to test your trading strategy on historical data. This helps you evaluate its performance and adjust parameters if needed. Keep track of performance metrics like returns, drawdown, and Sharpe ratio.
+
+6. Risk Management:
+Develop risk management rules to control position sizing, stop-loss orders, and portfolio diversification to mitigate risk.
+
+7. Order Execution:
+Choose a cryptocurrency exchange and implement order execution mechanisms using their APIs. Ensure that your bot can place buy and sell orders based on your trading signals.
+
+8. Real-Time Data Feed:
+Integrate a real-time data feed to continuously update your bot with the latest market information.
+
+9. Monitoring and Logging:
+Implement a system for monitoring your bot's performance and logging trading activities. This will help you troubleshoot and optimize your strategy.
+
+10. Security:
+Ensure the security of your bot and API keys to protect your assets. Use secure coding practices and consider using hardware wallets or cold storage for storing cryptocurrency assets.
+
+11. Paper Trading:
+Before deploying your bot with real funds, consider implementing a paper trading or simulation mode to test it in real-time without risking real money.
+
+12. Continuous Optimization:
+Regularly review and adjust your trading strategy to adapt to changing market conditions. Be prepared to update and refine your strategy over time.
+
+13. Legal and Regulatory Compliance:
+Familiarize yourself with the legal and regulatory requirements for cryptocurrency trading in your region and ensure that your bot complies with these regulations.
+
+14. Deployment:
+If you're satisfied with your bot's performance during backtesting and paper trading, you can deploy it with real funds on a cryptocurrency exchange.
+
+15. Monitoring and Maintenance:
+Continuously monitor your bot's performance, fix bugs, and adjust parameters as needed to keep it profitable.
+
+####################################
+
+Scrapping Sentiments
+
+News Websites: Scraping news articles, blogs, and forums related to cryptocurrencies can provide valuable insights. Websites like CoinDesk, Cointelegraph, and BitcoinTalk can be good sources.
+
+Cryptocurrency Forums: Online forums dedicated to cryptocurrencies often contain discussions and sentiments. Apart from BitcoinTalk, consider forums like Ethereum Stack Exchange and CryptocurrencyTalk.
+
+Telegram Groups and Discord Channels: Many cryptocurrency communities and projects have Telegram groups and Discord channels. You can scrape text from these groups to gauge sentiment.
+
+Reddit Subreddits: In addition to the main cryptocurrency-related subreddits, you can also explore specialized subreddits related to specific coins or tokens.
+
+Bitcointalk.org: This is one of the oldest and largest cryptocurrency forums, and it contains a wealth of information and discussions.
+
+Medium and Blogger: Cryptocurrency enthusiasts and experts often publish articles and blog posts sharing their views and analyses on Medium, Blogger, and similar platforms.
+
+GitHub: Analyzing comments, issues, and discussions related to cryptocurrency projects on GitHub can reveal developer sentiment and project health.
+
+TradingView: This platform offers charts, technical analysis, and discussions on various cryptocurrencies. You can scrape comments and sentiment from here.
+
+Crypto News Aggregator Websites: Websites like Cryptopanic and CryptoSlate aggregate news and social media sentiment on cryptocurrencies.
+
+Forums and Social Media in Other Languages: Don't limit yourself to English sources. Consider scraping sentiments from forums and social media platforms in other languages, especially if you're interested in non-English-speaking cryptocurrency communities.
