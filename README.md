@@ -108,6 +108,11 @@ If you're satisfied with your bot's performance during backtesting and paper tra
 15. Monitoring and Maintenance:
 Continuously monitor your bot's performance, fix bugs, and adjust parameters as needed to keep it profitable.
 
+
+
+
+
+
 ####################################
 
 Scrapping Sentiments
